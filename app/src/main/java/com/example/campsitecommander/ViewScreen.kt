@@ -48,7 +48,7 @@ class ViewScreen : AppCompatActivity() {
 
         var displayText = "Camping Gear List\n\n"
 
-        for (i in Items.indices) {
+        for (i in itemNames.indices) {
             displayText +=
 
                 "Items: ${itemNames[i]}\n" +
