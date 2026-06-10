@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CampsiteCommander</string>
+    <string name="created_by_noluthando_pewa_st10513456">Created by Noluthando Pewa ST10513456</string>
+    <string name="welcome_to_tree_pines_outdoor_adventure">Welcome to Tree Pines OutDoor Adventure</string>
+    <string name="welcome">Welcome to Three Pines Outdoor Adventure</string>
+    <string name="todo">TODO</string>
+    <string name="back_to_base">Back to base</string>
+    <string name="display_total_items_packed">Display Total Items Packed</string>
+    <string name="view_results">View results</string>
+    <string name="enter_item_name">Enter item name</string>
+    <string name="enter_category">Enter category</string>
+    <string name="enter_quantity">Enter quantity</string>
+    <string name="enter_the_comment">Enter the comment</string>
+</resources>
