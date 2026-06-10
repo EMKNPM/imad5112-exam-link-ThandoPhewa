@@ -26,8 +26,8 @@ class MainScreen : AppCompatActivity() {
 
     //Parallel arrays to store gear information
     val itemNames = ArrayList<String>()
-    val Category = ArrayList<String>()
-    val Quantity = ArrayList<Int>()
+    val Categories = ArrayList<String>()
+    val Quantities = ArrayList<Int>()
     val Comments = ArrayList<String>()
 
 
@@ -54,18 +54,18 @@ class MainScreen : AppCompatActivity() {
         if(itemNames.isEmpty()){
 
             itemNames.add("Tent")
-            Category.add("Shelter")
-            Quantity.add(1)
+            Categories.add("Shelter")
+            Quantities.add(1)
             Comments.add("4-person waterproof")
 
             itemNames.add("Marshmallows")
-            Category.add("Food")
-            Quantity.add(3)
+            Categories.add("Food")
+            Quantities.add(3)
             Comments.add("for S'mores(Mega size")
 
             itemNames.add("Flashlight")
-            Category.add("Safety")
-            Quantity.add(2)
+            Categories.add("Safety")
+            Quantities.add(2)
             Comments.add("Check batteries(AA)")
         }
 
@@ -82,8 +82,8 @@ class MainScreen : AppCompatActivity() {
         }else {
 
                 itemNames.add(edtItems.text.toString())
-                Category.add(edtCategory.text.toString())
-                Quantity.add(edtQuantity.text.toString().toInt())
+                Categories.add(edtCategory.text.toString())
+                Quantities.add(edtQuantity.text.toString().toInt())
                 Comments.add(edtComment.text.toString())
 
                 calculateTotal()
@@ -113,7 +113,7 @@ class MainScreen : AppCompatActivity() {
 
         var total = 0
 
-        for (qty in Quantity){
+        for (qty in Quantities){
             total += qty
         }
         tvTotal.text = "Total items Packed"
